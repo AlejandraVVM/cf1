@@ -1,0 +1,135 @@
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    container: relative;
+    flex: 1;
+    margin: 0%;   
+    padding: 10px; 
+}
+
+.logo{
+    margin-left: 30px;  
+}
+
+.search-container {
+    display: flex;
+    align-items: center; 
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    flex: 1; 
+    border-radius: 3px;
+    padding: 7px 10px; 
+    margin-right: 20px; 
+}
+
+.search-container button {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px; 
+    cursor: pointer;
+}
+
+
+.user-info button {
+    cursor: pointer;
+    color:#5ea8a8;
+    display:inline-block;
+
+}
+
+.Cart{
+    margin-right: 20px;
+    cursor:pointer;
+
+}
+.user-info-cart-group{
+    cursor: pointer;
+    margin-right: 30px;
+    display: flex;
+}
+
+.cta-section {
+    height: 25vh; 
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section video {
+    width: 100%; 
+    height: 90%; 
+    object-fit: cover; 
+}
+  
+main h1 {
+    font-size: 30px;
+    margin-bottom: 20px; 
+  }
+  
+.main {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.product{
+    display: flex;  
+
+}
+.product img {
+    width: 300px; 
+    height: auto; 
+    float: left;
+    margin-left:10%;
+   
+}
+
+.product-specification{
+    display:flex;
+    
+}
+.product,
+.specification {
+    flex: 1; 
+    margin-right: 80px; 
+}
+
+.specification img{
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 10%;
+
+}
+.button-back{
+    cursor: pointer;
+    background-color: rgb(193, 252, 250);
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(15, 15, 15);
+    height: 80px;
+    color: #dcfaf9;
+    text-align: center;
+    padding: 16px;
+    width:100%;
+  
+}
+
+@media all and (min-width: 600px) {
+    .main {
+        flex: 60%;
+        font-family:'Times New Roman', Times, serif;
+    } 
+}
